@@ -1,0 +1,23 @@
+# Course Auto Player Config
+# Browser type: chrome, firefox, edge
+browser=chrome
+
+# Login Config
+login_url=https://example.com/login
+username=your_username
+password=your_password
+
+# Locator Config: locator_type,locator_value
+# Supported locator types: ID, NAME, XPATH, CSS_SELECTOR, TAG_NAME, CLASS_NAME, LINK_TEXT, PARTIAL_LINK_TEXT
+username_locator=ID,username
+password_locator=ID,password
+login_btn_locator=ID,login-btn
+
+# Course List Config
+course_list_url=https://example.com/courses
+course_link_locator=CSS_SELECTOR,.course-item a
+
+# Video Play Config
+video_locator=TAG_NAME,video
+next_btn_locator=ID,next-lesson-btn
+play_btn_locator=None
