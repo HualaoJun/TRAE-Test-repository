@@ -5,63 +5,7 @@ after python, install selenium from pip.
 paste the command below into the terminal after you installed python: 
 pip install selenium   
 DO CONFIGURE BEFORE RUNNING THE PROGRAMME!type in the website of the video you need to play.
-我将演示如何安装Selenium依赖，首先检查当前Python环境，然后执行pip install selenium命令。
-        
-            
-toolName: run_command
-            
-status: success
-          
-command: python --version undefined
-          
-Python版本已确认，现在执行pip install selenium命令安装Selenium依赖。
-        
-            
-toolName: run_command
-            
-status: success
-          
-command: pip install selenium undefined
-          
-pip命令无法直接识别，尝试使用python -m pip方式安装Selenium，这是更可靠的安装方式。
-        
-            
-toolName: run_command
-            
-status: success
-          
-command: python -m pip install selenium undefined
-          
-当前Python环境未安装pip，需要先使用ensurepip模块安装pip，然后再安装Selenium。
-        
-            
-toolName: run_command
-            
-status: success
-          
-command: python -m ensurepip --upgrade undefined
-          
-pip已成功安装，现在可以继续安装Selenium依赖。
-        
-            
-toolName: run_command
-            
-status: success
-          
-command: python -m pip install selenium undefined
-          
-Selenium已成功安装，现在验证安装版本并向用户提供完整的使用指南。
-        
-            
-toolName: run_command
-            
-status: success
-          
-command: python -c "import selenium; print('Selenium版本:', selenium.__version__)" undefined
-          
-Selenium已成功安装，现在向用户提供完整的使用指南，包括浏览器驱动下载、脚本配置和运行步骤。✅ **Selenium已成功安装**（版本：4.39.0）
 
-### 下一步操作指南：
 
 #### 1. 下载浏览器驱动
 
@@ -129,12 +73,5 @@ python course_autoplayer.py
 2. **定位器错误**：重新检查定位器是否正确，建议使用ID或CSS选择器
 3. **登录失败**：检查用户名密码是否正确，或是否有验证码等额外验证
 4. **视频无法播放**：检查是否需要点击播放按钮，可配置`play_btn_locator`参数
-
-### 扩展建议
-
-- 添加课程进度保存功能，支持断点续播
-- 实现异常自动重试机制，提高稳定性
-- 添加GUI界面，方便非技术用户配置
-- 支持多平台适配，一键切换不同课程网站
 
 现在您可以根据自己的课程平台配置脚本，开始享受自动连续播放课程的便利了！
