@@ -1,5 +1,6 @@
 # TRAE-Test-repository
 for hualao and dy. 
+With course_autoplayer.py,you can automatically play online courses sequently.
 need python environment. 
 after python, install selenium from pip. 
 paste the command below into the terminal after you installed python: 
